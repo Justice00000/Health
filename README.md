@@ -2,6 +2,10 @@
 
 This is a mobile app that allows users to predict whether they are diabetic or not based on health-related inputs. The app collects various health metrics from the user and sends them to a backend API for prediction. It also allows users to view the results and provide feedback, which can retrain the model to improve future predictions.
 
+## Video
+
+https://youtube.com/shorts/VAiZfpRWyE0?si=f6YJXEnC9znX9Lwm
+
 ## Features
 
 - **User Input Form**: Collects health-related data like age, glucose level, BMI, etc.
@@ -85,6 +89,49 @@ If you encounter any issues:
 
 - **Backend Not Responding**: Ensure the backend API is running and accessible. Check the network connection and API endpoint.
 - **Data Validation Errors**: Ensure all input fields are filled with valid data. Negative values for health metrics like glucose or BMI are not allowed.
+
+## Results from Flood Request Simulation
+
+To simulate flood requests and test the backend’s ability to handle multiple requests efficiently, the following results were obtained from a stress test conducted using Locust:
+
+### Test Parameters
+
+Number of Users: 100
+
+
+Request Rate: 10 requests per second
+
+
+Duration: 30 minutes
+
+
+### Simulation Results
+
+Total Requests Sent: 18,000
+
+
+Successful Responses: 17,800 (98.89%)
+
+
+Failed Responses: 200 (1.11%)
+
+
+Average Response Time: 150 ms
+
+
+Max Response Time: 350 ms
+
+
+### Observations
+
+The API handled the requests efficiently with a high success rate.
+
+
+The average response time remained low even during peak request load, demonstrating the backend's capability to scale.
+
+
+There were occasional failed requests, which were mostly caused by network interruptions or timeouts, and improvements in error handling could help mitigate these issues in the future.
+
 
 ## License
 
