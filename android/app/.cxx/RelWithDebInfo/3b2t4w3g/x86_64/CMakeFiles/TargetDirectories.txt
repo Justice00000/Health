@@ -1,0 +1,2 @@
+C:/Users/chukw/Downloads/db-health/android/app/.cxx/RelWithDebInfo/3b2t4w3g/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/chukw/Downloads/db-health/android/app/.cxx/RelWithDebInfo/3b2t4w3g/x86_64/CMakeFiles/rebuild_cache.dir
